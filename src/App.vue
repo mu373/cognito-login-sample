@@ -1,15 +1,15 @@
 <template>
   <div>
-      <div>
-          Cognito User Pools sample with external IDP
-      </div>
+      <h1>
+          AWS Cognito login sample
+      </h1>
       <div>
           <a id="signInButton" href="javascript:void(0)" @click="userSignIn()" v-if="!isSignedIn" title="Sign in">Sign In / Sign Up</a>
-      </div>
-      <div>
           <a id="signOutButton" href="javascript:void(0)" @click="userSignOut()" v-if="isSignedIn"  title="Sign Out">Sign Out</a>
       </div>
-      <div><pre id="sessionInfo">{{sessionData}}</pre></div>
+      <div>
+        <pre id="sessionInfo">{{sessionData}}</pre>
+      </div>
   </div>
 
 </template>
