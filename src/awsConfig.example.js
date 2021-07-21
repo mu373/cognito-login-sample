@@ -22,4 +22,4 @@ let amplifyConfig = {
     }
 };
 
-export default amplifyConfig;
+export { amplifyConfig };

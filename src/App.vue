@@ -18,7 +18,7 @@
 
 import Amplify from 'aws-amplify';
 import { Auth } from 'aws-amplify';
-import amplifyConfig from './amplifyConfig.js';
+import {amplifyConfig} from './awsConfig.js';
 
 Amplify.configure(amplifyConfig);
 
