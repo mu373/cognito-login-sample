@@ -2,9 +2,9 @@
 This is sample Vue.js project that authenticates users using AWS Cognito's Hosted UI.
 
 ## Project setup
-Setup `amplifyConfig.js`
+Setup `awsConfig.js`
 ```sh
-cp amplifyConfig.example.js amplifyConfig.js
+cp awsConfig.example.js awsConfig.js
 ```
 
 ```sh
