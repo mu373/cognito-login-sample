@@ -1,3 +1,6 @@
+// Forked from https://github.com/rednes/cognito-simple-example-for-external-idp/blob/master/public/js/amplifyConfig.js.example
+// Copyright (c) 2020 rednes
+
 let CognitoRegion = 'ap-northeast-1';
 let CognitoUserPool = 'ap-northeast-1_xxxxxxxx';
 let CognitoUserPoolClient = 'xxxxxxxxxxxxxx';
