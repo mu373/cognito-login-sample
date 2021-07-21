@@ -67,5 +67,12 @@ export default {
 <style>
 #app {
   font-family: sans-serif;
+  width: 100%;
+}
+
+pre {
+  overflow: auto;
+  white-space: pre-wrap;
+  word-wrap: break-word;
 }
 </style>
