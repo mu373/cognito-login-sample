@@ -4,7 +4,7 @@ This is sample Vue.js project that authenticates users using AWS Cognito's Hoste
 ## Project setup
 Setup `awsConfig.js`
 ```sh
-cp awsConfig.example.js awsConfig.js
+cp src/awsConfig.example.js src/awsConfig.js
 ```
 
 ```sh
